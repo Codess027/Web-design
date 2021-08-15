@@ -1,0 +1,159 @@
+body{
+  text-align: center;
+  color: #2b3636;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1,h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+a{
+  color: #E96656;
+}
+/* Header */
+.sitelogo{
+  margin-left: 100px;
+}
+.nav{
+  background-color: rgba(135,167,166,0.97);
+}
+.navbar-right{
+margin-left: 600px;
+}
+.header-img{
+  width: 100%;
+}
+.btn{
+  border-radius: 50px;
+  background: #E96656;
+  border: 1px solid #E96656;
+  padding: 5px 20px;
+}
+.btn:hover{
+  background: #e6523f;
+  border: #e6523f;
+}
+
+/* First Container*/
+.container{
+  width: 50%;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 50px 0 50px 350px;
+  letter-spacing: 0.1px;
+  text-align: left;
+  }
+
+  /*Second Container */
+  .second-container{
+    line-height: 25px;
+    background-color: #f7f7f7;
+    padding-bottom: 50px;
+    }
+
+.thumbnail-img{
+  width: 260px;
+  height: 147px;
+  border-radius: 9px;
+}
+
+.thumbnail-row{
+  margin: 0 30px 50px 30px;
+
+}
+.card{
+  width: 262px;
+  height: 400px;
+  box-shadow: 0 1px #fff;
+  border: 2px solid #fff;
+  border-radius: 9px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  text-align: left;
+  position: relative;
+  }
+
+  .card:hover{
+    border-color: #f0d2cf;
+}
+
+.card-body{
+  font-size: 18px;
+}
+.card-text{
+  font-size: 14px;
+}
+
+.price{
+  color: #e46a5b;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+
+}
+.original-price{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+em{
+text-decoration: line-through;
+}
+
+.fa-shopping-cart{
+  padding-right:10px;
+}
+
+
+/* Fourth Container */
+.third-container{
+  margin-top: 50px;
+}
+.cert-heading{
+  font-size: 24px;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.cert-image{
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.support-heading{
+  margin-top: 100px;
+}
+
+/*Fifth Image*/
+.image-bg{
+  z-index: -1;
+  position: relative;
+}
+
+.btn-hg{
+position: absolute;
+top: 20px;
+z-index: 1;
+}
+
+/*fourth Image*/
+.icon-img{
+  width: 100%;
+  margin: 50px 50px;
+}
+
+.feed-title{
+  text-align: center;
+  margin-bottom: 50px;
+}
